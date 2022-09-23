@@ -1,0 +1,40 @@
+/* Master Styles */
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 8fr;
+}
+
+/* Navigation Styles */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 42px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-bar > .left-side > div {
+    margin-right: 72px;
+}
+
+/* Extra Link Stylying */
+.extras a {
+    margin-right: 16px;
+    color: palevioletred;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.extras a:hover {
+    border-bottom: 1px solid black;
+}
+
+.extras a:hover {
+    color: black;
+}
